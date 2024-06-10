@@ -2,7 +2,7 @@ GET http://localhost:3333/review
 
 ###
 
-GET http://localhost:3333/review/1305e2fd-6434-4589-9445-6cd9f2639cee
+GET http://localhost:3333/review/b2a4f2e2-fc5d-437d-abd8-a5c7efed3d46
 
 ###
 
@@ -19,7 +19,7 @@ Content-Type: application/json
 
 ###
 
-PUT http://localhost:3333/review/1305e2fd-6434-4589-9445-6cd9f2639cee
+PUT http://localhost:3333/review/b2a4f2e2-fc5d-437d-abd8-a5c7efed3d46
 Content-Type: application/json
 
 {
@@ -32,4 +32,4 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:3333/review/1305e2fd-6434-4589-9445-6cd9f2639cee
+DELETE http://localhost:3333/review/b2a4f2e2-fc5d-437d-abd8-a5c7efed3d46
