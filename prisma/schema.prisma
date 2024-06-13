@@ -16,4 +16,5 @@ model Review {
   author    String
   rating    Float
   createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
 }
