@@ -1,6 +1,26 @@
 {
   "name": "fastify-prisma-crud",
   "version": "1.0.0",
+  "description": "CRUD API to practice the Node.js Fastify framework and Prisma ORM with an SQLite database.",
+  "author": "Gabriel Rapucci Gonzalez <gabrielrapuccigonzalez14@hotmail.com> (https://gabrielrapucci.com.br)",
+  "homepage": "https://github.com/gabrielrg14/fastify-prisma-crud",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gabrielrg14/fastify-prisma-crud"
+  },
+  "bugs": {
+    "url": "https://github.com/gabrielrg14/fastify-prisma-crud/issues"
+  },
+  "keywords": [
+    "nodejs",
+    "fastify",
+    "prisma",
+    "crud-api",
+    "rest-api",
+    "back-end",
+    "portfolio"
+  ],
+  "license": "MIT",
   "main": "src/server.ts",
   "type": "module",
   "scripts": {
@@ -8,10 +28,6 @@
     "start": "tsx src/server.ts",
     "dev": "tsx watch src/server.ts"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
     "@fastify/cors": "^8.4.1",
     "@prisma/client": "^5.5.0",
